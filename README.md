@@ -816,9 +816,9 @@ isBoolean(value);
 | `@Max(max: number)`                             | Checks if the given number is less than or equal to given number. |
 | **Date validation decorators**                  |
 | `@MinDate(date: Date)`                          | Checks if the value is a date that's after the specified date. |
-| `@MaxDate(date: Date)`                          | Checks if the value is a date that's before the specified date. |  
+| `@MaxDate(date: Date)`                          | Checks if the value is a date that's before the specified date. |
 | **String-type validation decorators**           | |
-| `@IsBooleanString()`                            | Checks if a string is a boolean (e.g. is "true" or "false"). |
+| `@IsBooleanString()`                            | Checks if a string is a boolean (e.g. is "true" or "false", or is "0" or "1"). |
 | `@IsDateString()`                               | Alias for `@IsISO8601()`. |
 | `@IsNumberString(options?: IsNumericOptions)`   | Checks if a string is a number. |
 | **String validation decorators**                | |
